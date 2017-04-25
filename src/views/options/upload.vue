@@ -129,7 +129,7 @@
     watch: {
       'page.current' (val) {
         this.form.page = val
-        this.getDownloadList(this.form.page)
+        this.getUploadList(this.form.page)
       }
     }
   }
