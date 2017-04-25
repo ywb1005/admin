@@ -1,0 +1,86 @@
+@import "common.css";
+/* content */
+.main {
+  background: #fff;
+}
+/* 定义大小 */
+.row {
+  width: 1252px;
+  margin: 0 auto;
+  overflow: hidden;
+  clear: both;
+}
+/* 页面首个标题 */
+.ibox-title>h3 {
+  padding-top: 15px;
+}
+/* 无菜单 */
+.contain {
+  margin-top: 64px;
+}
+/* 有菜单 */
+.container {
+  min-width: 892px;
+  margin-top: 74px;
+  margin-left: 224px;
+  overflow: hidden;
+  transition: margin .5s;
+}
+/* 虚线 */
+.line-dashed {
+  border: 1px dashed #eee;
+}
+/* 实线 */
+.solid {
+  border: 1px solid #eee;
+}
+/* 面包屑导航 */
+.el-breadcrumb {
+  margin: -5px 0 10px 10px;
+  padding-bottom: 10px;
+}
+.func-col {
+  padding: 10px 0 10px 32px;
+  background: #fff;
+}
+/* 按钮 */
+.link-button {
+  display: inline-block;
+  line-height: 1;
+  white-space: nowrap;
+  cursor: pointer;
+  text-align: center;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 10px 15px;
+  font-size: 14px;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #20a0ff;
+  border: 1px solid #20a0ff;
+}
+.cell>img {
+  max-height: 100px;
+}
+
+.el-form--inline .el-form-item__label {
+  float: left;
+}
+
+@media screen and (max-width: 991px){
+  /* 有菜单 */
+  .container {
+    margin-top: 64px;
+    margin-left: 4px;
+    transition: margin .5s;
+  }
+}
+
+/* 路由切换效果 */
+.slide-fade-enter-active {
+  transition: all 1s ease;
+}
+.slide-fade-enter, .slide-fade-leave-active {
+  padding-left: 10px;
+  opacity: 0;
+}
